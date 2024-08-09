@@ -483,9 +483,8 @@ Não, há várias outras funções de ativação além das 9 que mencionei. Vou 
 - **Descrição**: A função Maxout é definida como o máximo de um conjunto de entradas lineares, o que permite modelar funções de ativação mais complexas.
 - **Desvantagem**: Mais computacionalmente cara e requer mais parâmetros para ser efetiva.
 
+
 ### 20. **Softsign**
 - **Intervalo de Saída**: (-1, 1)
 - **Descrição**: Similar ao tanh, mas com uma forma mais suave e contínua.
 - **Desvantagem**: Pode não ser tão popular ou amplamente testada quanto outras funções de ativação.
-#   P y T o r c h _ m o d e l  
- 
