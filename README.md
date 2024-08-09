@@ -275,12 +275,11 @@ Compreender a derivada e como ela se aplica ao ajuste de parâmetros do modelo �
 
 ---
 
-Este documento foi formatado para oferecer um guia completo para o uso de PyTorch, desde conceitos básicos até técnicas avançadas de deep learning.
 ```
 
 ---
 
-### Guia Completo sobre PyTorch e Redes Neurais
+### Guia Resumido sobre PyTorch e Redes Neurais
 
 #### 1. Instalação e Importação
 - Instalação: Use `pip install torch` para instalar o PyTorch.
