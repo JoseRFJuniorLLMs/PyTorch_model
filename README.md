@@ -1,4 +1,5 @@
-Aqui está a versão corrigida e formatada do seu arquivo para o formato `README.md` no GitHub:
+![TransNAR](/rede.png)
+
 
 ```markdown
 # Guia de PyTorch para Redes Neurais
