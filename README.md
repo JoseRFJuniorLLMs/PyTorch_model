@@ -489,3 +489,43 @@ Não, há várias outras funções de ativação além das 9 que mencionei. Vou 
 - **Intervalo de Saída**: (-1, 1)
 - **Descrição**: Similar ao tanh, mas com uma forma mais suave e contínua.
 - **Desvantagem**: Pode não ser tão popular ou amplamente testada quanto outras funções de ativação.
+
+
+# Tipos de Redes Neurais
+
+Aqui está uma lista detalhada de diferentes tipos de redes neurais, o problema que cada uma resolve e o problema que não resolve.
+
+| **Nome da Rede Neural**                  | **Problema que Resolve**                                       | **Problema que Não Resolve**                              |
+|-------------------------------------------|----------------------------------------------------------------|-----------------------------------------------------------|
+| **Perceptron**                          | Classificação binária simples                                 | Problemas não lineares (como XOR)                        |
+| **Rede Neural Artificial (ANN)**        | Classificação e regressão geral                               | Dados temporais e sequenciais                            |
+| **Rede Neural Convolucional (CNN)**     | Processamento e análise de imagens, reconhecimento visual      | Dados temporais e sequenciais                            |
+| **Rede Neural Recorrente (RNN)**        | Dados sequenciais e temporais                                 | Longas dependências temporais (problema do gradiente que desaparece) |
+| **Long Short-Term Memory (LSTM)**       | Dependências de longo prazo em dados sequenciais              | Problemas não sequenciais                                 |
+| **Gated Recurrent Unit (GRU)**           | Dependências de longo prazo em dados sequenciais              | Dados não sequenciais                                    |
+| **Rede Neural Generativa Adversária (GAN)** | Geração de novos dados semelhantes aos dados de treinamento  | Dados altamente estruturados e problemas de classificação |
+| **Autoencoders**                        | Redução de dimensionalidade, codificação de dados             | Problemas de previsão e classificação direta              |
+| **Rede Neural de Hopfield**             | Armazenamento e recuperação de padrões                        | Dados sequenciais e grandes conjuntos de dados           |
+| **Rede Neural Radial Basis Function (RBF)** | Aproximação de funções e classificação não linear          | Dados com alta variabilidade ou estrutura sequencial complexa |
+| **Transformers**                        | Processamento de linguagem natural, dados sequenciais com atenção | Dados não sequenciais sem modificações                   |
+| **Siamese Network**                     | Comparação de similaridade entre pares de dados               | Dados não pares, problemas de classificação simples      |
+| **Capsule Networks**                    | Captura de relações espaciais complexas e hierárquicas em imagens | Problemas não visuais ou altamente dinâmicos            |
+| **Neural Turing Machines (NTM)**        | Simulação de memória e capacidade de computação geral         | Tarefas simples de classificação ou regressão            |
+| **Differentiable Neural Computer (DNC)** | Tarefas que exigem leitura e escrita em memória externa       | Problemas simples de classificação e regressão           |
+| **Restricted Boltzmann Machines (RBM)** | Modelagem de distribuições de dados e redução de dimensionalidade | Processamento de dados sequenciais ou estruturados       |
+| **Deep Belief Networks (DBN)**          | Modelagem hierárquica de características de dados              | Dados sequenciais e temporais                            |
+| **Attention Mechanisms**                | Melhoria do processamento de dados sequenciais e tradução    | Dados não sequenciais ou problemas sem relação temporal   |
+| **Self-Organizing Maps (SOM)**          | Redução de dimensionalidade e visualização de dados            | Dados temporais e sequenciais                            |
+| **Extreme Learning Machine (ELM)**      | Treinamento rápido e simplificado para redes neurais           | Modelagem de dependências temporais complexas            |
+| **Neural Network Ensembles**            | Combinação de múltiplas redes para melhorar a precisão        | Dados altamente variáveis e não estruturados             |
+| **Hybrid Neural Networks**              | Combinação de diferentes tipos de redes para tarefas específicas | Problemas que exigem uma única abordagem simples          |
+| **Fuzzy Neural Networks**               | Processamento de dados imprecisos e incertos                   | Dados altamente precisos e estruturados                  |
+| **Modular Neural Networks**             | Redes divididas em módulos especializados                      | Problemas que não podem ser decompostos em módulos        |
+| **Echo State Networks (ESN)**           | Modelagem de dinâmicas temporais com um reservatório esparso   | Dados que não seguem padrões temporais                   |
+| **Spiking Neural Networks (SNN)**       | Processamento de informações inspiradas no comportamento neuronal | Dados não inspirados no comportamento neural              |
+| **Radial Basis Function Networks (RBFN)** | Aproximação de funções usando bases radiais                   | Problemas de classificação complexos com alta variabilidade |
+| **Probabilistic Graphical Models (PGM)** | Modelagem de dependências probabilísticas entre variáveis      | Dados sequenciais e temporais complexos                  |
+| **Graph Neural Networks (GNN)**         | Processamento de dados em estruturas de grafos                  | Dados não estruturados ou sequenciais                    |
+| **Neural Ordinary Differential Equations (Neural ODEs)** | Modelagem contínua e aprendizado de sistemas dinâmicos          | Problemas não dinâmicos ou discretos                      |
+| **Attention-based Neural Networks**     | Melhoria do foco em partes relevantes de dados                  | Dados que não se beneficiam de mecanismos de atenção       |
+
